@@ -1,0 +1,29 @@
+#best-services{
+    text-align: center;
+    align-items: center;
+    margin: 8% 10%;
+}
+#best-services-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0%;
+}
+#best-services h4{
+    color: #737373;
+    font-size: 20px;
+    font-weight: 400;
+}
+#best-services-list h3, #best-services h3{
+    font-size: 24px;
+    color: #252B42;
+    font-weight: 700;
+}
+#best-services-list p, #best-services p{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+}

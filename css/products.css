@@ -65,4 +65,5 @@
 #load-products-button:hover{
     color: white;
     background-color: #23A6F0;
+    cursor: pointer;
 }

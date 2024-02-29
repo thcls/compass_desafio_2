@@ -63,6 +63,9 @@
     z-index: 10;
     border: none;
 }
+.post-options button :hover{
+    cursor: pointer;
+}
 .featured-post{
     display: flex;
     gap: 10px;
@@ -129,6 +132,7 @@
 .learn-more-button:hover{
     color: white;
     background-color: #23A6F0;
+    cursor: pointer;
 }
 .score-section{
     display: flex;

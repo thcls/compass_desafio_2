@@ -1,3 +1,20 @@
+#logo-section{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    justify-content:space-around;
+    align-items: center;
+    vertical-align: middle;
+    Height: 175px;
+    margin: 2% 10%;
+}
+#logo-section img{
+    margin: 2em 0;
+    display: flex;
+    justify-self: center;
+}
+
+
 #product-of-the-week{
     display: grid;
     column-gap: 15px;
@@ -86,6 +103,9 @@
     height: 52px;
     Padding: 15px, 40px, 15px, 40px;
     bottom: 10%;
+}
+.product-of-the-week-banner-button:hover{
+    cursor: pointer;
 }
 #product-of-the-week-banner-0 .product-of-the-week-banner-button{
     bottom: 20%;

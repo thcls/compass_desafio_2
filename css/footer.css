@@ -68,6 +68,10 @@ footer form p{
     position: absolute;
     margin-left: -4px;
 }
+#subscribe-button:hover{
+    cursor: pointer;
+}
+
 #rights{
     padding: 0% 10%;
     font-weight: 600;
