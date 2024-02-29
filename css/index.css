@@ -1,0 +1,90 @@
+@import url('header.css');
+@import url('product_of_the_week.css');
+@import url('products.css');
+@import url('featured_posts.css');
+@import url('footer.css');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+button{
+    z-index: 100;
+}
+button :hover{
+    cursor: pointer;
+}
+#logo-section{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    justify-content:space-around;
+    align-items: center;
+    vertical-align: middle;
+    Height: 175px;
+    margin: 2% 10%;
+}
+#logo-section img{
+    margin: 2em 0;
+    display: flex;
+    justify-self: center;
+}
+#featured-products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: center;
+    Width: 1185px;
+    Height: 572px;
+    box-sizing: border-box;
+}
+#featured-products img{
+    margin: 0% 15px;
+}
+#featured-products p{
+    font-size: 14px;
+    font-weight: 400;
+}
+#best-services{
+    text-align: center;
+    align-items: center;
+    margin: 8% 10%;
+}
+#best-services-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+}
+#best-services h4{
+    color: #737373;
+    font-size: 20px;
+    font-weight: 400;
+}
+#best-services-list h3, #best-services h3{
+    font-size: 24px;
+    color: #252B42;
+    font-weight: 700;
+}
+#best-services-list p, #best-services p{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+}
+#featured-products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin:5% 10%;
+    gap: 90px;
+}
+#featured-products-images{
+    display: i;
+    box-sizing: border-box;
+    white-space: nowrap;
+    Width: 513px;
+    Height: 498px;
+}

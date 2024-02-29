@@ -1,0 +1,75 @@
+#footer-header{
+    margin: 4% 10%;
+}
+#footer-header .brandname{
+    justify-self: left;
+}
+#footer-social-links{
+    float: right;
+    vertical-align: middle;
+    margin: 0%;
+    align-items: center;
+}
+#footer-info{
+    display: grid;
+    justify-content: space-around;
+    flex-direction: row;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin:2% 10%;
+    padding-top: 2%;
+    border-top: 0.5px solid #E6E6E6;
+}
+footer h3{
+    font-weight: 700;
+}
+.footer-list{
+    list-style-type: none;
+    padding: 0;
+}
+.footer-list li{
+    padding: 5px 0px;
+}
+.footer-list li a{
+    color: #737373;
+    text-decoration: none;
+}
+footer form{
+    font-weight: 400;
+    display: inline;
+    font-size: 14px;
+}
+footer form p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #737373;
+
+}
+#email-text-field{
+    height: 58px;
+    box-sizing: border-box;
+    border: 1px solid #E6E6E6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#email-text-field ::placeholder {
+    margin: 1em;
+  }
+#subscribe-button{
+    color: white;
+    background-color: #23A6F0;
+    border: 0;
+    height: 58px;
+    width: 100px;
+    box-sizing: border-box;
+    border-left: 1px solid #E6E6E6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    margin-left: -4px;
+}
+#rights{
+    padding: 0% 10%;
+    font-weight: 600;
+    color: #737373;
+}

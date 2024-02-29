@@ -1,0 +1,92 @@
+#product-of-the-week{
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: auto;
+    margin: 5% 10%;
+}
+#product-of-the-week-0{
+    position: relative;
+    padding: 0;
+    width: 612px;
+    height: 572px;
+    box-sizing: border-box;
+    justify-self: end;
+}
+#product-of-the-week-side-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: start;
+}
+#product-of-the-week-1{
+    position: relative;
+    padding: 0;
+    width: 557px;
+    height: 289px;
+    box-sizing: border-box;
+}
+#product-of-the-week-2{
+    position: relative;
+    padding: 0;
+    width: 557px;
+    height: 261px;
+    box-sizing: border-box;
+}
+#product-of-the-week-side-cards{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr auto;
+    gap: 15px;
+}
+#product-of-the-week-banner-0, #product-of-the-week-banner-1,#product-of-the-week-banner-2{
+    background-color: rgba(45, 139, 192, 0.75);
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    box-sizing: border-box;
+    text-align: left;
+    padding-left: 5%;
+}
+#product-of-the-week h6{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+#product-of-the-week-banner-0 h6{
+    font-size: 24px;
+}
+#product-of-the-week-banner-0{
+    Width: 420px;
+    Height: 238px;
+    padding-left: 10%;
+    
+}
+#product-of-the-week-banner-1{
+    Width: 347px;
+    Height: 173px;
+    white-space: nowrap;
+}
+#product-of-the-week-banner-2{
+    Width: 360px;
+    Height: 153px;
+    white-space: nowrap;
+}
+.product-of-the-week-banner-button{
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    box-sizing: border-box;
+    width: 198px;
+    height: 52px;
+    Padding: 15px, 40px, 15px, 40px;
+    bottom: 10%;
+}
+#product-of-the-week-banner-0 .product-of-the-week-banner-button{
+    bottom: 20%;
+}
