@@ -59,6 +59,7 @@ button :hover{
     align-items: center;
     list-style-type: none;
     text-align: center;
+    padding-left: 0%;
 }
 #best-services h4{
     color: #737373;
